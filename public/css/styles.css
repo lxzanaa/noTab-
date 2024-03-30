@@ -494,50 +494,20 @@ video {
 .left-0 {
   left: 0px;
 }
-.top-\[403px\] {
-  top: 403px;
-}
-.top-0 {
-  top: 0px;
+.left-\[-90px\] {
+  left: -90px;
 }
 .right-0 {
   right: 0px;
 }
-.top-\[-100px\] {
-  top: -100px;
-}
-.top-\[-120px\] {
-  top: -120px;
-}
 .top-\[-130px\] {
   top: -130px;
-}
-.top-\[-10px\] {
-  top: -10px;
-}
-.top-\[200px\] {
-  top: 200px;
-}
-.top-\[230px\] {
-  top: 230px;
-}
-.top-\[250px\] {
-  top: 250px;
-}
-.top-\[350px\] {
-  top: 350px;
 }
 .top-\[270px\] {
   top: 270px;
 }
-.left-\[-100px\] {
-  left: -100px;
-}
-.left-\[-90px\] {
-  left: -90px;
-}
-.left-\[-80px\] {
-  left: -80px;
+.top-\[403px\] {
+  top: 403px;
 }
 .mx-auto {
   margin-left: auto;
@@ -549,20 +519,29 @@ video {
 .ml-16 {
   margin-left: 4rem;
 }
-.ml-24 {
-  margin-left: 6rem;
+.mb-0 {
+  margin-bottom: 0px;
+}
+.mb-8 {
+  margin-bottom: 2rem;
 }
 .flex {
   display: flex;
 }
+.h-80 {
+  height: 20rem;
+}
 .w-\[80px\] {
   width: 80px;
 }
+.w-0 {
+  width: 0px;
+}
+.w-\[500px\] {
+  width: 500px;
+}
 .max-w-\[1156px\] {
   max-width: 1156px;
-}
-.max-w-\[1240px\] {
-  max-width: 1240px;
 }
 .max-w-\[380px\] {
   max-width: 380px;
@@ -570,11 +549,44 @@ video {
 .max-w-\[643px\] {
   max-width: 643px;
 }
+.max-w-\[\] {
+  max-width: ;
+}
+.max-w-\[375px\] {
+  max-width: 375px;
+}
+.max-w-\[370px\] {
+  max-width: 370px;
+}
+.max-w-\[360px\] {
+  max-width: 360px;
+}
+.max-w-\[350px\] {
+  max-width: 350px;
+}
+.max-w-\[340px\] {
+  max-width: 340px;
+}
+.max-w-\[330px\] {
+  max-width: 330px;
+}
+.max-w-\[30px\] {
+  max-width: 30px;
+}
+.max-w-\[1\] {
+  max-width: 1;
+}
 .grow {
   flex-grow: 1;
 }
+.flex-col {
+  flex-direction: column;
+}
 .items-center {
   align-items: center;
+}
+.justify-center {
+  justify-content: center;
 }
 .justify-between {
   justify-content: space-between;
@@ -588,28 +600,57 @@ video {
 .gap-3 {
   gap: 0.75rem;
 }
+.gap-7 {
+  gap: 1.75rem;
+}
 .gap-8 {
   gap: 2rem;
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+.border {
+  border-width: 1px;
+}
+.border-\[2px\] {
+  border-width: 2px;
+}
+.border-\[\] {
+  border-color: ;
+}
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
-.bg-cover {
-  background-size: cover;
-}
-.bg-repeat {
-  background-repeat: repeat;
-}
-.bg-no-repeat {
-  background-repeat: no-repeat;
+.p-14 {
+  padding: 3.5rem;
 }
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
 .pb-16 {
   padding-bottom: 4rem;
+}
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -617,11 +658,30 @@ video {
 .pt-1 {
   padding-top: 0.25rem;
 }
+.pt-3 {
+  padding-top: 0.75rem;
+}
 .pt-6 {
   padding-top: 1.5rem;
 }
+.pt-16 {
+  padding-top: 4rem;
+}
+.pb-28 {
+  padding-bottom: 7rem;
+}
+.pt-24 {
+  padding-top: 6rem;
+}
+.text-left {
+  text-align: left;
+}
 .font-sans {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 .text-6xl {
   font-size: 3.75rem;
@@ -635,11 +695,22 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
 .font-bold {
   font-weight: 700;
 }
 .font-medium {
   font-weight: 500;
+}
+.font-normal {
+  font-weight: 400;
 }
 .leading-6 {
   line-height: 1.5rem;
@@ -649,6 +720,15 @@ video {
 }
 .leading-\[70px\] {
   line-height: 70px;
+}
+.leading-\[\] {
+  line-height: ;
+}
+.leading-\[40\.86px\] {
+  line-height: 40.86px;
+}
+.leading-\[32\.69px\] {
+  line-height: 32.69px;
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -663,6 +743,37 @@ video {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+.hover\:translate-x-3:hover {
+  --tw-translate-x: 0.75rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:translate-y-3:hover {
+  --tw-translate-y: 0.75rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:translate-y-9:hover {
+  --tw-translate-y: 2.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:-translate-y-9:hover {
+  --tw-translate-y: -2.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:-translate-y-4:hover {
+  --tw-translate-y: -1rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:-translate-y-2:hover {
+  --tw-translate-y: -0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:-translate-y-3:hover {
+  --tw-translate-y: -0.75rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 .hover\:opacity-60:hover {
   opacity: 0.6;
